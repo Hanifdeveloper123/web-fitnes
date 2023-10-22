@@ -1,0 +1,718 @@
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #000000;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    background: #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.navbar .logo{
+    display: flex;
+    font-weight:700;
+    color: #fff;
+    font-family: Uncial Antiqua;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+
+   
+}
+.nav-menu li {
+    list-style: none;
+}
+.nav-menu a {
+    text-decoration: none;
+
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-weight: 200;
+}
+.nav-item a {
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #ffffff;
+    font-family: Poppins;
+
+}
+
+
+.banner img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #000000;
+    padding: 1.4rem 7%;
+    width: 100%;
+
+}
+
+.home-content{
+    display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 1.4rem 7%;
+  color: white;
+}
+
+.content .home-content h1 {
+    padding: 10px;
+  flex: 50%;
+  color: #FFF;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 62.4px */
+letter-spacing: 0.96px;
+}
+.content .home-content p {
+    padding: 10px;
+  flex: 50%;
+  color: #FFF;
+font-family: Poppins;
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 184%; /* 36.8px */
+letter-spacing: 0.4px;
+
+}
+
+
+.home-link {
+    width: 100%;
+   height: 150px;
+background: #1391AD;    
+flex-direction: column;
+}
+
+.home-link a{
+    color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: italic;
+font-weight: 600;
+justify-content: center;
+align-items: center;
+    margin: 60px;  
+}
+
+.main-banner{
+    position: absolute;
+    top: 1000px;
+    height: 430px;
+
+    width: 1331px;
+
+
+}
+
+.hero{
+    margin-top: 200px;
+  flex-direction: row;
+  font-size: 30px;
+  background: rgba(19, 145, 173, 0.25);
+  padding: 1.4rem 7%;
+}
+ .main{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 1.4rem 7%;
+ }
+
+.main-logo img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10rem;
+   
+}
+
+.main-content{
+    padding: 10px;
+    flex: 50%;
+}
+
+.main-content h1{
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.main-content p{
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+letter-spacing: 0.4px;
+}
+
+.main-content  .main-button{
+    border-radius: 32.5px;
+    background: linear-gradient(180deg, #24FFDD -28.46%, #1391AD 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 184%; /* 36.8px */
+letter-spacing: 0.9px;
+width: 170px;
+height: 40px;
+margin-top: 25px;
+margin-bottom: 25px;
+
+}
+
+.main .contac {
+    background-color: white;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex-wrap: ;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.review h1{
+    font-size: 20px;
+    text-align: center; 
+    color: white;
+     font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.main .contac .nama{
+    display: flex;
+    font-size: 20px;
+}
+.main .contac .nama h4{
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.main .contac .nama p{
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.main .contac .location{
+    display: flex;
+    font-size: 20px;
+}
+.main .contac .location h4{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.main .contac .location p{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.main .contac .telepon{
+    display: flex;
+    font-size: 20px;
+}
+.main .contac .telepon h4{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.main .contac .telepon p{
+    display: flex;
+    margin-left: 30px;
+
+    font-size: 20px;
+}
+
+.trainer-header{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 1.4rem 7%;
+}
+
+.trainer-logo img{
+    width: 100%;
+    flex: 50%;
+    padding: 10px;
+}
+
+.trainer-title{
+    flex: 50%;
+    padding: 10px;
+}
+
+.trainer-title{
+    flex: 50%;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.trainer-galery{
+    display: flex;
+    padding: 1.4rem 7%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.trainer-galery img{
+   width: 100%;
+}
+
+.contac-review{
+    display: flex;
+    padding: 1.4rem 7%;
+    gap: 20px;
+}
+
+.contac-review .card1{
+    display: inline-flex;
+padding: 17px 29px;
+flex-direction: column;
+align-items: flex-start;
+gap: 21px;
+border-radius: 15px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+background: var(--White, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: black;
+}
+
+.contac-review .card1 .card-title{
+    display: flex;
+    margin-left: 20px;
+}
+
+.contac-review .card1 .card-title h4{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.contac-review .card1 .card-title h5{
+    display: flex;
+    margin-left: 20px;
+    font-size: 10px;
+
+}
+
+.footer-title{
+    background: #1AB9BF;
+    color: white;
+        font-family: Uncial Antiqua;
+    display: flex;
+}
+.footer-title h1{
+    font-family: PT Serif;
+    font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+    background: #1AB9BF;
+    color: white;
+    padding: 1.4rem 7%;
+    display: flex;
+}
+.footer-title .footer-button{
+    display: inline-flex;
+    padding: 13px 35px;
+    border-radius: 12px;
+background: #F4CD00;color: var(--White, #FFF);
+text-align: center;
+font-family: Poppins;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.6px;
+float: right;
+}
+
+
+/*laptop*/
+@media (max-width: 765px) {
+    html {
+        font-size: 62.5%;
+    }
+
+
+    #hamburger-menu{
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+}
+
+    .navbar .navbar-nav.active{
+        right: 0;
+    }
+
+    .navbar .navbar-nav a{
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+}
+
+    .navbar .navbar-nav a:hover::after{
+        transform: scaleX(0,2);
+        }
+}
+
+.about .row{
+    flex-wrap: wrap;
+}
+
+.about .row .about-img .img{
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about .row .content{
+    padding: 0;
+}
+
+.about .row .content h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+}
+
+.menu p {
+    font-size: 1.2rem;
+}
+
+.contact .row{
+    flex-wrap: wrap;
+}
+
+.contact .row .maps{
+    height: 30rem;
+}
+
+.contact .row .form{
+    padding-top: 0;
+}
+
+footer{
+    background: rgba(26, 185, 191, 0.63);    text-align: center;
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+    font-family: Poppins;
+}
+
+footer .sosial{
+    padding: 1rem 0;
+}
+footer .sosial .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Uncial Antiqua;
+
+}
+
+footer .sosial a{
+    color: #fff;
+    margin: 1rem;
+}
+
+footer .sosial a:hover{
+    color: var(--bg);
+}
+
+
+footer .links a:hover{
+    color: var(--bg);
+}
+
+footer .links a{
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+footer .links {
+    margin-bottom: 1.4rem;
+}
+
+footer .credit{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+
+
+.navbar .search-form{
+    width: 90%;
+    right: 2rem;
+}
+
+.join{
+    border: 1px solid #5A5A5A;
+    width: 100%;
+    margin-bottom: none;
+    padding: 1.4rem 7%;
+    background: #1AB9BF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join h1{
+    font-family: PT Serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+}
+
+.join a{
+    font-family: poppins;
+font-size: 25px;
+padding: 13px 35px;
+border-radius: 12px;
+background: #F4CD00;
+color: white;
+}
+
+
+@media (max-width: 765px) {
+    html {
+        font-size: 62.5%;
+    }
+
+
+   
+}
+@media (max-width: 765px) {
+    
+
+    .home-content, 
+    .main, 
+    .trainer-header {
+      flex-direction: column;
+    }
+
+    
+
+    .contac-review,
+    .trainer-galery
+    {
+        flex-wrap: wrap;
+    }
+
+    .main-content h1{
+        font-size: 30px;
+    }
+    .main-content p{
+        font-size: 15px;
+    }
+   
+
+    .content .home-content h1{
+        font-size: 30px;
+    }
+    .content .home-content p{
+        font-size: 15px;
+    }
+
+    .main .contac .nama p,
+    .main .contac .location p,
+    .main .contac .telepon p{
+        display: flex;
+        font-size: 8px;
+        margin-left: 20px;
+    }
+
+    .main .contac .nama h4,
+    .main .contac .location h4,
+    .main .contac .telepon h4{
+        display: flex;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .main .contac .nama img,
+    .main .contac .location img,
+    .main .contac .telepon img{
+        width: 20px;
+        margin-left: 30px;
+
+    }
+
+    .contac h1{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .review h1{
+        font-size: 35px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+   
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item a{
+        margin: 2.5rem 0;
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        
+    }
+
+    .hamburger .bar{
+        display: block;
+        cursor: pointer;
+        color: white;
+        background-color: white;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+        background-color: white;
+
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+    
+    .join h1{
+        font-size: 20px;
+    }
+    .join a{
+        font-family: poppins;
+        font-size: 15px;
+        padding: 9px 25px;
+    }
+
+    .home-link a{
+        font-size: 20px;
+    }
+    .main-logo img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -8rem;
+       
+    }
+    
+    .hero{
+        margin-top: 100px;
+      flex-direction: row;
+      font-size: 30px;
+      background: rgba(19, 145, 173, 0.25);
+      padding: 1.4rem 7%;
+    }
+}
