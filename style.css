@@ -127,22 +127,24 @@ letter-spacing: 0.4px;
 }
 
 
-.home-link {
-    width: 100%;
+.row {
    height: 150px;
 background: #1391AD;    
-flex-direction: column;
-}
-
-.home-link a{
-    color: #FFF;
-font-family: Poppins;
-font-size: 22px;
-font-style: italic;
-font-weight: 600;
 justify-content: center;
 align-items: center;
-    margin: 60px;  
+display: flex;
+  flex-wrap: wrap;
+}
+
+.row .column{
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+text-align: center;
+padding: 5px;
+flex: 25%;
 }
 
 .main-banner{
@@ -566,7 +568,7 @@ color: white;
 
    
 }
-@media (max-width: 765px) {
+@media (max-width: 800px) {
     
 
     .home-content, 
@@ -697,6 +699,8 @@ color: white;
 
     .home-link a{
         font-size: 20px;
+        flex-wrap: wrap;
+
     }
     .main-logo img{
         width: 100%;
@@ -715,4 +719,13 @@ color: white;
       background: rgba(19, 145, 173, 0.25);
       padding: 1.4rem 7%;
     }
+
+    .column {
+    flex: 50%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
 }
+
